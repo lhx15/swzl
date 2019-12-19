@@ -1,4 +1,4 @@
-const config = require('./config');
+const {config} = require('./config');
 const Sequelize = require('sequelize');
 var sequelize =  new Sequelize(config.database,config.username,config.password,{
     host: config.host,
